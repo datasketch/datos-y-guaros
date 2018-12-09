@@ -1,0 +1,44 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Datos & Guaros"
+theme = "hugo-titi"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+publishDir="docs"
+
+[blackfriday]
+  hrefTargetBlank = true
+
+#Parametros de configuración
+
+[params]
+css = ["custom.css"]
+#footer
+[params.footer]
+text =  "Todo el material en esta página es CC-BY-SA. Si reusas o adaptas recursos de esta página, por favor vincula y referencia nuestro artículo o sitio web"
+bg = "white"
+color =  "black"
+
+
+[params.nav]
+bg =  "#f4f4f4"
+color = "#777"
+logo = "images/ds.png"
+logoWidth = "150px"
+
+[[params.social]]
+icon = "twitter"
+url = "https://twitter.com/datasketch"
+
+[[params.social]]
+icon = "facebook-f"
+url = "https://facebook.com/datasketch"
+
+[[params.social]]
+icon = "instagram"
+url = "https://www.instagram.com/datasketch/"
+
+
+
+
